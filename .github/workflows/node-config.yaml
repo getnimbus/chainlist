@@ -23,7 +23,7 @@ jobs:
       run: yarn
 
     - name: Run Script
-      run: node genConfig # Replace with the script you want to run
+      run: node genConfig && cat config.json
 
     - name: Configure Git
       run: |
@@ -32,6 +32,7 @@ jobs:
 
     - name: Commit and Push Changes
       run: |
+        git diff
         git add .
         git commit -m "Automated commit of changes"
         git push
