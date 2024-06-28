@@ -38,3 +38,18 @@ jobs:
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Deploy App to CapRover
+      uses: caprover/deploy-from-github@main
+      with:
+        server: "${{ secrets.CAPROVER_SERVER }}"
+        app: "${{ secrets.APP_NAME }}"
+        token: "${{ secrets.CAPROVER_TOKEN }}"
+        image: "${{ secrets.DOCKER_IMAGE }}"
+
+    - name: Discord notification
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      uses: Ilshidur/action-discord@master
+      with:
+        args: "Build `rpc-aggregator` config file and redeployed to CapRover successfully."
