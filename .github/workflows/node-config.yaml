@@ -32,7 +32,7 @@ jobs:
 
     - name: Commit and Push Changes
       run: |
-        git add config.json
+        git add .
         git commit -m "Automated commit of changes"
         git push
       env:
