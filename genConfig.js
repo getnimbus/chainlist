@@ -17,7 +17,7 @@ const nodes = Object.keys(extraRpcs).reduce((prev, key) => {
         };
       })
       .filter((row) => {
-        return ignoreList.some((keyword) => !row.endpoint.includes(keyword));
+        return row.endpoint.includes('http') && ignoreList.some((keyword) => !row.endpoint.includes(keyword));
       }),
   };
 }, {});
