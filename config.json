@@ -5340,6 +5340,13 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-8899-4",
+        "endpoint": "https://rpc2-l1.jbc.xpool.pw",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "8995": [
