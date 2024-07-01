@@ -207,40 +207,34 @@ const nearNodes = [
 
 const solanaNodes = [
   {
-    name: "chainlist-solana-1",
+    name: "chainlist-solana-0",
     endpoint: "https://api.mainnet-beta.solana.com",
     weight: 300,
     read_only: false,
     disabled: false,
   },
   {
-    name: "chainlist-solana-2",
-    endpoint: "https://solana-api.projectserum.com",
-    weight: 100,
-    read_only: false,
-    disabled: false,
-  },
-  {
-    name: "chainlist-solana-3",
-    endpoint: "https://rpc.ankr.com/solana",
-    weight: 100,
-    read_only: false,
-    disabled: false,
-  },
-  {
-    name: "chainlist-solana-4",
+    name: "chainlist-solana-1",
     endpoint: "https://solana.api.onfinality.io/public",
     weight: 100,
     read_only: false,
     disabled: false,
   },
   {
-    name: "chainlist-solana-5",
-    endpoint: "https://solana.drpc.org",
+    name: "chainlist-solana-2",
+    endpoint: "https://api.tatum.io/v3/blockchain/node/solana-mainnet",
     weight: 100,
     read_only: false,
     disabled: false,
   },
+  {
+    name: "chainlist-solana-3",
+    endpoint: "https://swr.xnftdata.com/rpc-proxy/",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
+  // https://solana-mainnet.phantom.app/YBPpkkN4g91xDiAnTE9r0RcMkjg0sKUIWvAfoFVJ
 ];
 
 const nodes = Object.keys(extraRpcs).reduce(
