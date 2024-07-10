@@ -922,7 +922,21 @@
     "30": [
       {
         "name": "chainlist-30-0",
+        "endpoint": "https://mycrypto.rsk.co",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-30-1",
         "endpoint": "https://public-node.rsk.co",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-30-2",
+        "endpoint": "https://rootstock.drpc.org",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -1728,6 +1742,13 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-66-4",
+        "endpoint": "https://oktc.drpc.org",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "68": [],
@@ -2104,6 +2125,13 @@
       {
         "name": "chainlist-108-0",
         "endpoint": "https://mainnet-rpc.thundercore.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-108-1",
+        "endpoint": "https://thundercore.drpc.org",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -3499,27 +3527,34 @@
       },
       {
         "name": "chainlist-1001-1",
-        "endpoint": "https://klaytn-baobab-rpc.allthatnode.com:8551",
+        "endpoint": "https://public-en.kairos.node.kaia.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
         "name": "chainlist-1001-2",
-        "endpoint": "https://rpc.ankr.com/klaytn_testnet",
+        "endpoint": "https://klaytn-baobab.g.allthatnode.com/full/evm",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
         "name": "chainlist-1001-3",
-        "endpoint": "https://klaytn-baobab.blockpi.network/v1/rpc/public",
+        "endpoint": "https://rpc.ankr.com/klaytn_testnet",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
         "name": "chainlist-1001-4",
+        "endpoint": "https://klaytn-baobab.blockpi.network/v1/rpc/public",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1001-5",
         "endpoint": "https://klaytn.api.onfinality.io/public",
         "weight": 100,
         "read_only": false,
@@ -3675,6 +3710,13 @@
       {
         "name": "chainlist-1100-3",
         "endpoint": "https://dymension-evm.kynraze.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1100-4",
+        "endpoint": "https://dymension.drpc.org",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -4923,12 +4965,68 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-7000-1",
+        "endpoint": "https://zetachain-mainnet.g.allthatnode.com/archive/evm",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-7000-2",
+        "endpoint": "https://zeta-chain.drpc.org",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-7000-3",
+        "endpoint": "https://zetachain-mainnet.public.blastapi.io",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-7000-4",
+        "endpoint": "https://7000.rpc.thirdweb.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "7001": [
       {
         "name": "chainlist-7001-0",
         "endpoint": "https://zetachain-athens-evm.blockpi.network/v1/rpc/public",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-7001-1",
+        "endpoint": "https://7001.rpc.thirdweb.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-7001-2",
+        "endpoint": "https://zetachain-athens.g.allthatnode.com/archive/evm",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-7001-3",
+        "endpoint": "https://zeta-chain-testnet.drpc.org",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-7001-4",
+        "endpoint": "https://zetachain-testnet.public.blastapi.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -5113,7 +5211,7 @@
       },
       {
         "name": "chainlist-8217-1",
-        "endpoint": "https://klaytn-mainnet-rpc.allthatnode.com:8551",
+        "endpoint": "https://klaytn-mainnet.g.allthatnode.com/full/evm",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -5481,6 +5579,13 @@
       {
         "name": "chainlist-9000-17",
         "endpoint": "https://jsonrpc-evmos-testnet.mzonder.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-9000-18",
+        "endpoint": "https://evmos.drpc.org",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -5889,6 +5994,15 @@
       }
     ],
     "16000": [],
+    "16180": [
+      {
+        "name": "chainlist-16180-0",
+        "endpoint": "https://subnets.avax.network/plyr/mainnet/rpc",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
     "17000": [
       {
         "name": "chainlist-17000-0",
@@ -6365,6 +6479,13 @@
       {
         "name": "chainlist-42220-4",
         "endpoint": "https://api.tatum.io/v3/blockchain/node/celo-mainnet",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-42220-5",
+        "endpoint": "https://celo.drpc.org",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7028,6 +7149,13 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-81457-11",
+        "endpoint": "https://blast.drpc.org",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "84531": [
@@ -7353,6 +7481,13 @@
       {
         "name": "chainlist-167000-5",
         "endpoint": "https://taiko-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-167000-7",
+        "endpoint": "https://taiko.drpc.org",
         "weight": 100,
         "read_only": false,
         "disabled": false
