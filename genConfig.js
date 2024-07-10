@@ -265,7 +265,7 @@ const nodes = Object.keys(extraRpcs).reduce(
 
 const config = {
   proxy: "",
-  max_retries: 5,
+  max_retries: 3,
   request_timeout: 60,
   phishing_db: ["https://cfg.rpchub.io/agg/scam-addresses.json"],
   phishing_db_update_interval: 3600,
