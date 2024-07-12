@@ -6040,6 +6040,15 @@
         "disabled": false
       }
     ],
+    "17071": [
+      {
+        "name": "chainlist-17071-0",
+        "endpoint": "https://rpc.onchainpoints.xyz",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
     "17777": [
       {
         "name": "chainlist-17777-0",
@@ -7575,6 +7584,15 @@
       {
         "name": "chainlist-314159-0",
         "endpoint": "https://filecoin-calibration.chainup.net/rpc/v1",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "328527": [
+      {
+        "name": "chainlist-328527-0",
+        "endpoint": "https://rpc.nal.network",
         "weight": 100,
         "read_only": false,
         "disabled": false
