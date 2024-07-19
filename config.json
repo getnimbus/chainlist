@@ -2506,10 +2506,28 @@
         "disabled": false
       }
     ],
+    "184": [
+      {
+        "name": "chainlist-184-0",
+        "endpoint": "https://rpc-test-d11k.dojima.network",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
     "186": [
       {
         "name": "chainlist-186-0",
         "endpoint": "https://rpc.seelen.pro/",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "187": [
+      {
+        "name": "chainlist-187-0",
+        "endpoint": "https://rpc-d11k.dojima.network",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7500,6 +7518,13 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-167000-9",
+        "endpoint": "https://taiko-mainnet.rpc.porters.xyz/taiko-public",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "167008": [
@@ -7933,6 +7958,15 @@
       {
         "name": "chainlist-955305-0",
         "endpoint": "https://host-76-74-28-226.contentfabric.io/eth/",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "988207": [
+      {
+        "name": "chainlist-988207-0",
+        "endpoint": "https://mainnet-rpc.ecroxscan.com",
         "weight": 100,
         "read_only": false,
         "disabled": false
