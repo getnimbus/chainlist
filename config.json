@@ -3107,27 +3107,20 @@
       },
       {
         "name": "chainlist-369-1",
-        "endpoint": "https://pulse-s.projectpi.xyz",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-369-2",
         "endpoint": "https://pulsechain-rpc.publicnode.com",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-369-4",
+        "name": "chainlist-369-3",
         "endpoint": "https://rpc-pulsechain.g4mm4.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-369-5",
+        "name": "chainlist-369-4",
         "endpoint": "https://evex.cloud/pulserpc",
         "weight": 100,
         "read_only": false,
@@ -3520,13 +3513,6 @@
     "943": [
       {
         "name": "chainlist-943-0",
-        "endpoint": "https://pulsetest-s.projectpi.xyz",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-943-1",
         "endpoint": "https://pulsechain-testnet-rpc.publicnode.com",
         "weight": 100,
         "read_only": false,
@@ -8167,6 +8153,15 @@
       {
         "name": "chainlist-16658437-0",
         "endpoint": "https://testnet.plian.io/testnet",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "18071918": [
+      {
+        "name": "chainlist-18071918-0",
+        "endpoint": "https://mande-mainnet.public.blastapi.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
