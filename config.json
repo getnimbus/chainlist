@@ -8551,112 +8551,42 @@
       },
       {
         "name": "chainlist-near-1",
-        "endpoint": "https://near-mainnet.api.pagoda.co/rpc/v1",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-near-2",
         "endpoint": "https://1rpc.io/near",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-near-3",
-        "endpoint": "https://near-mainnet-rpc.allthatnode.com:3030",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-near-4",
-        "endpoint": "https://rpc.ankr.com/near",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-near-5",
-        "endpoint": "https://public-rpc.blockpi.io/http/near",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-near-6",
+        "name": "chainlist-near-2",
         "endpoint": "https://near.drpc.org",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-near-7",
-        "endpoint": "https://rpc.web4.near.page",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-near-8",
+        "name": "chainlist-near-3",
         "endpoint": "https://free.rpc.fastnear.com",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-near-9",
-        "endpoint": "https://rpc.near.gateway.fm/",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-near-10",
-        "endpoint": "https://getblock.io/nodes/near/",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-near-11",
+        "name": "chainlist-near-4",
         "endpoint": "https://near.lava.build",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-near-12",
+        "name": "chainlist-near-5",
         "endpoint": "https://near.lavenderfive.com/",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-near-13",
-        "endpoint": "https://nodereal.io/api-marketplace/near-rpc",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-near-14",
-        "endpoint": "https://near.nownodes.io/",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-near-15",
+        "name": "chainlist-near-6",
         "endpoint": "https://endpoints.omniatech.io/v1/near/mainnet/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-near-16",
-        "endpoint": "https://api.seracle.com/saas/baas/rpc/near/mainnet/public/",
         "weight": 100,
         "read_only": false,
         "disabled": false
