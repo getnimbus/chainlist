@@ -147,7 +147,7 @@ const solanaNodes = [
   {
     name: "chainlist-solana-0",
     endpoint: "https://api.mainnet-beta.solana.com",
-    weight: 1000,
+    weight: 500,
     read_only: false,
     disabled: false,
   },
@@ -175,6 +175,65 @@ const solanaNodes = [
   // https://solana-mainnet.phantom.app/YBPpkkN4g91xDiAnTE9r0RcMkjg0sKUIWvAfoFVJ
 ];
 
+const solanaDasNodes = [
+  {
+    name: "chainlist-solana-das-0",
+    endpoint: "https://mainnet.helius-rpc.com/?api-key=287ca27d-96ce-4d78-9c13-ba98937e262a",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
+  {
+    name: "chainlist-solana-das-1",
+    endpoint: "https://mainnet.helius-rpc.com/?api-key=fc665902-8e03-4a6a-bd87-09576ebcb483",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
+  {
+    name: "chainlist-solana-das-2",
+    endpoint: "https://mainnet.helius-rpc.com/?api-key=3d9f0d50-6f41-4564-810b-a7b159eed30a",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
+  {
+    name: "chainlist-solana-das-3",
+    endpoint: "https://mainnet.helius-rpc.com/?api-key=8e6bc0dd-4c9b-44fb-b29a-974daa279f97",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
+  {
+    name: "chainlist-solana-das-4",
+    endpoint: "https://mainnet.helius-rpc.com/?api-key=a1b6dd29-bbd7-41d6-8ffa-f709ee2b6fd5",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
+  {
+    name: "chainlist-solana-das-5",
+    endpoint: "https://mainnet.helius-rpc.com/?api-key=b8d8caad-edb9-4175-957e-59031fd1325c",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
+  {
+    name: "chainlist-solana-das-6",
+    endpoint: "https://mainnet.helius-rpc.com/?api-key=db809365-c986-4e76-85a5-a02ed5b82091",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
+  {
+    name: "chainlist-solana-das-7",
+    endpoint: "https://mainnet.helius-rpc.com/?api-key=ce215dc6-42e3-494e-b92d-ca2f1ce957f4",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
+];
+
 const nodes = Object.keys(extraRpcs).reduce(
   (prev, key) => {
     return {
@@ -198,6 +257,7 @@ const nodes = Object.keys(extraRpcs).reduce(
     sui: suiNodes,
     near: nearNodes,
     solana: solanaNodes,
+    "solana_das": solanaDasNodes,
   }
 );
 
