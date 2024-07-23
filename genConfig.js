@@ -87,7 +87,7 @@ const nearNodes = [
   {
     name: "chainlist-near-0",
     endpoint: "https://rpc.mainnet.near.org",
-    weight: 300,
+    weight: 1000,
     read_only: false,
     disabled: false,
   },
