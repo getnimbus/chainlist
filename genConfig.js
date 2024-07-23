@@ -147,7 +147,7 @@ const solanaNodes = [
   {
     name: "chainlist-solana-0",
     endpoint: "https://api.mainnet-beta.solana.com",
-    weight: 300,
+    weight: 1000,
     read_only: false,
     disabled: false,
   },
