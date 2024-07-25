@@ -140,22 +140,8 @@
         "disabled": false
       },
       {
-        "name": "chainlist-1-19",
-        "endpoint": "https://eth-mainnet-public.unifra.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-1-20",
         "endpoint": "https://ethereum.blockpi.network/v1/rpc/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-1-21",
-        "endpoint": "https://rpc.payload.de",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -3506,13 +3492,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-1030-1",
-        "endpoint": "https://conflux-espace-public.unifra.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-1030-2",
         "endpoint": "https://conflux-espace.blockpi.network/v1/rpc/public",
         "weight": 100,
@@ -6220,13 +6199,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-42161-8",
-        "endpoint": "https://arb-mainnet-public.unifra.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-42161-10",
         "endpoint": "https://arbitrum-one-rpc.publicnode.com",
         "weight": 100,
@@ -7599,13 +7571,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-534351-1",
-        "endpoint": "https://scroll-testnet-public.unifra.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-534351-2",
         "endpoint": "https://rpc.ankr.com/scroll_sepolia_testnet",
         "weight": 100,
@@ -7671,13 +7636,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-534352-3",
-        "endpoint": "https://scroll-mainnet-public.unifra.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-534352-4",
         "endpoint": "https://scroll.blockpi.network/v1/rpc/public",
         "weight": 100,
@@ -7714,13 +7672,6 @@
       }
     ],
     "534353": [
-      {
-        "name": "chainlist-534353-0",
-        "endpoint": "https://scroll-alpha-public.unifra.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
       {
         "name": "chainlist-534353-1",
         "endpoint": "https://scroll-alphanet.public.blastapi.io",
@@ -7868,13 +7819,6 @@
       {
         "name": "chainlist-11155111-3",
         "endpoint": "https://eth-sepolia.public.blastapi.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-11155111-4",
-        "endpoint": "https://eth-sepolia-public.unifra.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
