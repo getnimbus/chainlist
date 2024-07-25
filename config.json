@@ -196,13 +196,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-1-29",
-        "endpoint": "https://main-light.eth.linkpool.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-1-31",
         "endpoint": "https://rpc.chain49.com/ethereum?api_key=14d1a8b86d8a4b4797938332394203dc",
         "weight": 100,
