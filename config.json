@@ -337,7 +337,7 @@
       },
       {
         "name": "chainlist-1-47",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/ethereum-mainnet",
+        "endpoint": "https://ethereum-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -682,7 +682,7 @@
       },
       {
         "name": "chainlist-10-19",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/optimism-mainnet",
+        "endpoint": "https://optimism-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -740,27 +740,13 @@
       },
       {
         "name": "chainlist-19-1",
-        "endpoint": "https://01-gravelines-006-01.rpc.tatum.io/ext/bc/C/rpc",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-19-2",
-        "endpoint": "https://02-tokyo-006-03.rpc.tatum.io/ext/bc/C/rpc",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-19-3",
         "endpoint": "https://rpc.ftso.au/songbird",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-19-4",
+        "name": "chainlist-19-2",
         "endpoint": "https://songbird.solidifi.app/ext/C/rpc",
         "weight": 100,
         "read_only": false,
@@ -1139,7 +1125,7 @@
       },
       {
         "name": "chainlist-50-15",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/xdc-mainnet",
+        "endpoint": "https://xdc-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -1525,7 +1511,7 @@
       },
       {
         "name": "chainlist-56-39",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/bsc-mainnet",
+        "endpoint": "https://bsc-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -2098,7 +2084,7 @@
       },
       {
         "name": "chainlist-100-14",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/gno-mainnet",
+        "endpoint": "https://gno-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -2401,7 +2387,7 @@
       },
       {
         "name": "chainlist-137-20",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/polygon-mainnet",
+        "endpoint": "https://polygon-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -2818,7 +2804,7 @@
       },
       {
         "name": "chainlist-250-16",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/fantom-mainnet",
+        "endpoint": "https://fantom-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -4330,7 +4316,7 @@
       },
       {
         "name": "chainlist-2000-9",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/doge-mainnet",
+        "endpoint": "https://doge-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -5264,7 +5250,7 @@
       },
       {
         "name": "chainlist-8217-8",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/klaytn-cypress",
+        "endpoint": "https://klaytn-cypress.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -5385,7 +5371,7 @@
       },
       {
         "name": "chainlist-8453-17",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/base-mainnet",
+        "endpoint": "https://base-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -5839,7 +5825,7 @@
       },
       {
         "name": "chainlist-10000-3",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/bch-mainnet ",
+        "endpoint": "https://bch-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -5928,7 +5914,7 @@
       },
       {
         "name": "chainlist-11235-4",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/haqq-mainnet",
+        "endpoint": "https://haqq-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6454,7 +6440,7 @@
       },
       {
         "name": "chainlist-42170-6",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/arb-nova-mainnet",
+        "endpoint": "https://arb-nova-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6491,7 +6477,7 @@
       },
       {
         "name": "chainlist-42220-4",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/celo-mainnet",
+        "endpoint": "https://celo-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6733,7 +6719,7 @@
       },
       {
         "name": "chainlist-43114-16",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/avax-mainnet",
+        "endpoint": "https://avax-x-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7084,7 +7070,7 @@
       },
       {
         "name": "chainlist-80002-6",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/polygon-amoy",
+        "endpoint": "https://polygon-amoy.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -8358,7 +8344,7 @@
       },
       {
         "name": "chainlist-1313161554-4",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/aurora-mainnet ",
+        "endpoint": "https://aurora-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -8697,7 +8683,7 @@
       },
       {
         "name": "chainlist-11297108109-2",
-        "endpoint": "https://api.tatum.io/v3/blockchain/node/palm-mainnet",
+        "endpoint": "https://palm-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
