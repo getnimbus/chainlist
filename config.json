@@ -133,13 +133,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-1-17",
-        "endpoint": "https://openapi.bitstack.com/v1/wNFxbiJyQsSeLrX8RRCHi7NpRxrlErZk/DjShIqLishPCTB9HiMkPHXjUM9CNM9Na/ETH/mainnet",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-1-18",
         "endpoint": "https://eth-pokt.nodies.app",
         "weight": 100,
@@ -224,13 +217,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-1-30",
-        "endpoint": "https://rpc.eth.gateway.fm",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-1-31",
         "endpoint": "https://rpc.chain49.com/ethereum?api_key=14d1a8b86d8a4b4797938332394203dc",
         "weight": 100,
@@ -280,13 +266,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-1-38",
-        "endpoint": "https://eth-mainnet.diamondswap.org/rpc",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-1-39",
         "endpoint": "https://rpc.notadegen.com/eth",
         "weight": 100,
@@ -324,13 +303,6 @@
       {
         "name": "chainlist-1-44",
         "endpoint": "https://api.stateless.solutions/ethereum/v1/demo",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-1-45",
-        "endpoint": "https://rpc.polysplit.cloud/v1/chain/1",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -484,13 +456,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-5-6",
-        "endpoint": "https://rpc.goerli.eth.gateway.fm",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-5-7",
         "endpoint": "https://ethereum-goerli-rpc.publicnode.com",
         "weight": 100,
@@ -620,13 +585,6 @@
       {
         "name": "chainlist-10-8",
         "endpoint": "https://optimism.api.onfinality.io/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-10-9",
-        "endpoint": "https://rpc.optimism.gateway.fm",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -1342,13 +1300,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-56-13",
-        "endpoint": "https://bsc-dataseed6.dict.life/",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-56-14",
         "endpoint": "https://rpc-bsc.48.club",
         "weight": 100,
@@ -1405,13 +1356,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-56-22",
-        "endpoint": "https://bsc.rpcgator.com/",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-56-23",
         "endpoint": "https://binance.nodereal.io",
         "weight": 100,
@@ -1421,13 +1365,6 @@
       {
         "name": "chainlist-56-24",
         "endpoint": "https://bsc-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-56-25",
-        "endpoint": "https://nodes.vefinetwork.org/smartchain",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -1498,13 +1435,6 @@
       {
         "name": "chainlist-56-36",
         "endpoint": "https://services.tokenview.io/vipapi/nodeservice/bsc?apikey=qVHq2o6jpaakcw3lRstl",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-56-37",
-        "endpoint": "https://rpc.polysplit.cloud/v1/chain/56",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -2020,13 +1950,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-100-3",
-        "endpoint": "https://rpc.gnosis.gateway.fm",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-100-4",
         "endpoint": "https://gnosis-mainnet.public.blastapi.io",
         "weight": 100,
@@ -2036,13 +1959,6 @@
       {
         "name": "chainlist-100-5",
         "endpoint": "https://rpc.ankr.com/gnosis",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-100-6",
-        "endpoint": "https://rpc.ap-southeast-1.gateway.fm/v4/gnosis/non-archival/mainnet",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -2796,13 +2712,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-250-14",
-        "endpoint": "https://rpc.fantom.gateway.fm",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-250-15",
         "endpoint": "https://fantom.drpc.org",
         "weight": 100,
@@ -3148,13 +3057,6 @@
       {
         "name": "chainlist-420-2",
         "endpoint": "https://optimism-goerli.public.blastapi.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-420-3",
-        "endpoint": "https://rpc.goerli.optimism.gateway.fm",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -3723,13 +3625,6 @@
       {
         "name": "chainlist-1101-0",
         "endpoint": "https://rpc.ankr.com/polygon_zkevm",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-1101-1",
-        "endpoint": "https://rpc.polygon-zkevm.gateway.fm",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -5279,13 +5174,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-8453-2",
-        "endpoint": "https://base-mainnet.diamondswap.org/rpc",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-8453-3",
         "endpoint": "https://base.blockpi.network/v1/rpc/public",
         "weight": 100,
@@ -5857,13 +5745,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-10200-1",
-        "endpoint": "https://rpc.chiado.gnosis.gateway.fm",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-10200-2",
         "endpoint": " https://endpoints.omniatech.io/v1/gnosis/chiado/public",
         "weight": 100,
@@ -6156,13 +6037,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-32520-1",
-        "endpoint": "https://nodes.vefinetwork.org/bitgert",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-32520-2",
         "endpoint": "https://flux-rpc.brisescan.com",
         "weight": 100,
@@ -6348,13 +6222,6 @@
       {
         "name": "chainlist-42161-8",
         "endpoint": "https://arb-mainnet-public.unifra.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-42161-9",
-        "endpoint": "https://rpc.arb1.arbitrum.gateway.fm",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7136,13 +7003,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-81457-6",
-        "endpoint": "https://blast.gasswap.org",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-81457-8",
         "endpoint": "https://rpc.envelop.is/blast",
         "weight": 100,
@@ -7165,13 +7025,6 @@
       }
     ],
     "84531": [
-      {
-        "name": "chainlist-84531-0",
-        "endpoint": "https://base-goerli.diamondswap.org/rpc",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
       {
         "name": "chainlist-84531-1",
         "endpoint": "https://base-goerli.public.blastapi.io",
@@ -7677,13 +7530,6 @@
       {
         "name": "chainlist-421613-2",
         "endpoint": "https://arbitrum-goerli.public.blastapi.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-421613-3",
-        "endpoint": "https://rpc.goerli.arbitrum.gateway.fm",
         "weight": 100,
         "read_only": false,
         "disabled": false
