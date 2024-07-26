@@ -1,7 +1,20 @@
 import { extraRpcs } from "./constants/extraRpcs.js";
 import { writeFileSync } from "fs";
 
-const ignoreList = ["bitstack", "rpcgator", "vefinetwork", "gateway.fm", "bsc-dataseed6", "diamondswap", "polysplit", "gasswap", "unifra.io", "rpc.payload.de", "linkpool.io"];
+const ignoreList = [
+  "bitstack",
+  "rpcgator",
+  "vefinetwork",
+  "gateway.fm",
+  "bsc-dataseed6",
+  "diamondswap",
+  "polysplit",
+  "gasswap",
+  "unifra.io",
+  "rpc.payload.de",
+  "linkpool.io",
+  "elk.finance",
+];
 
 const suiNodes = [
   {
