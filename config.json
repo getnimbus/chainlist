@@ -782,13 +782,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-25-1",
-        "endpoint": "https://cronos-rpc.elk.finance/",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-25-2",
         "endpoint": "https://cronos.blockpi.network/v1/rpc/public",
         "weight": 100,
