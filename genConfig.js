@@ -15,7 +15,6 @@ const ignoreList = [
   "linkpool.io",
   "elk.finance",
   "zmok.io",
-  "elk.finance",
 ];
 
 const suiNodes = [
