@@ -147,13 +147,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-1-22",
-        "endpoint": "https://api.zmok.io/mainnet/oaen6dy8ff6hju9k",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-1-23",
         "endpoint": "https://eth-mainnet.g.alchemy.com/v2/demo",
         "weight": 100,
