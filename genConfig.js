@@ -14,6 +14,7 @@ const ignoreList = [
   "rpc.payload.de",
   "linkpool.io",
   "elk.finance",
+  "zmok.io",
 ];
 
 const suiNodes = [
