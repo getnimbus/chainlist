@@ -7254,15 +7254,6 @@
         "disabled": false
       }
     ],
-    "88888": [
-      {
-        "name": "chainlist-88888-0",
-        "endpoint": "https://rpc.chiliz.com",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      }
-    ],
     "99999": [
       {
         "name": "chainlist-99999-0",
