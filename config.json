@@ -8230,6 +8230,22 @@
         "disabled": false
       }
     ],
+    "20230825": [
+      {
+        "name": "chainlist-20230825-0",
+        "endpoint": "https://testnet.vcity.app",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-20230825-1",
+        "endpoint": "https://testnet.vcity.app",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
     "28945486": [],
     "35855456": [
       {
