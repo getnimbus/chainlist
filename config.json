@@ -3419,6 +3419,15 @@
       }
     ],
     "977": [],
+    "996": [
+      {
+        "name": "chainlist-996-0",
+        "endpoint": "https://hk.p.bifrost-rpc.liebi.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
     "998": [],
     "1001": [
       {
@@ -4859,6 +4868,15 @@
       {
         "name": "chainlist-5729-0",
         "endpoint": "https://rpc-testnet.hika.network",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "5858": [
+      {
+        "name": "chainlist-5858-0",
+        "endpoint": "https://rpc.cthscan.com",
         "weight": 100,
         "read_only": false,
         "disabled": false
