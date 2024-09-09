@@ -1447,13 +1447,6 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-57-4",
-        "endpoint": "https://rpc.pollum.services",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "58": [
@@ -2132,6 +2125,15 @@
         "disabled": false
       }
     ],
+    "133": [
+      {
+        "name": "chainlist-133-0",
+        "endpoint": "https://hashkeychain-testnet.alt.technology",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
     "137": [
       {
         "name": "chainlist-137-0",
@@ -2714,6 +2716,13 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-255-1",
+        "endpoint": "https://kroma.drpc.org",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "256": [
@@ -3182,13 +3191,6 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-570-4",
-        "endpoint": "https://rollux.pollum.services",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "592": [
@@ -3460,7 +3462,7 @@
       },
       {
         "name": "chainlist-1001-4",
-        "endpoint": "https://klaytn-baobab.blockpi.network/v1/rpc/public",
+        "endpoint": "https://kaia-kairos.blockpi.network/v1/rpc/public",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -3673,6 +3675,22 @@
       {
         "name": "chainlist-1101-7",
         "endpoint": "https://endpoints.omniatech.io/v1/polygon-zkevm/mainnet/public",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "1111": [
+      {
+        "name": "chainlist-1111-0",
+        "endpoint": "https://api.wemix.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1111-2",
+        "endpoint": "https://wemix.drpc.org",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -4091,6 +4109,29 @@
         "disabled": false
       }
     ],
+    "1513": [
+      {
+        "name": "chainlist-1513-0",
+        "endpoint": "https://testnet.storyrpc.io",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1513-1",
+        "endpoint": "https://story-rpc-evm.validatorvn.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1513-2",
+        "endpoint": "https://story-rpc01.originstake.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
     "1515": [
       {
         "name": "chainlist-1515-0",
@@ -4137,6 +4178,22 @@
         "disabled": false
       }
     ],
+    "1750": [
+      {
+        "name": "chainlist-1750-0",
+        "endpoint": "https://rpc.metall2.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1750-1",
+        "endpoint": "https://metall2.drpc.org",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
     "1773": [
       {
         "name": "chainlist-1773-0",
@@ -4169,6 +4226,15 @@
       {
         "name": "chainlist-1891-0",
         "endpoint": "https://endpoints.omniatech.io/v1/lightlink/pegasus/public",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "1946": [
+      {
+        "name": "chainlist-1946-0",
+        "endpoint": "https://rpc.minato.soneium.org/",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -4771,6 +4837,13 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-5000-7",
+        "endpoint": "https://mantle.api.onfinality.io/public",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "5050": [
@@ -4852,13 +4925,6 @@
       {
         "name": "chainlist-5700-0",
         "endpoint": "https://syscoin-tanenbaum-evm.publicnode.com",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-5700-3",
-        "endpoint": "https://rpc-testnet.pollum.services",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -5192,7 +5258,7 @@
       },
       {
         "name": "chainlist-8217-3",
-        "endpoint": "https://klaytn.blockpi.network/v1/rpc/public",
+        "endpoint": "https://kaia.blockpi.network/v1/rpc/public",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6136,7 +6202,7 @@
     "32520": [
       {
         "name": "chainlist-32520-0",
-        "endpoint": "https://rpc.icecreamswap.com",
+        "endpoint": "https://rpc-bitgert.icecreamswap.com",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6268,6 +6334,22 @@
       {
         "name": "chainlist-39815-2",
         "endpoint": "https://mainnet-rpc2.ohoscan.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "41455": [
+      {
+        "name": "chainlist-41455-0",
+        "endpoint": "https://rpc.alephzero.raas.gelato.cloud",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-41455-2",
+        "endpoint": "https://alephzero.drpc.org",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6832,15 +6914,6 @@
         "disabled": false
       }
     ],
-    "57000": [
-      {
-        "name": "chainlist-57000-0",
-        "endpoint": "https://rollux.rpc-testnet.pollum.services",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      }
-    ],
     "59140": [
       {
         "name": "chainlist-59140-0",
@@ -6900,6 +6973,13 @@
       {
         "name": "chainlist-60808-0",
         "endpoint": "https://rpc.gobob.xyz",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-60808-2",
+        "endpoint": "https://bob.drpc.org",
         "weight": 100,
         "read_only": false,
         "disabled": false
