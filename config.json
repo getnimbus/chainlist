@@ -4126,7 +4126,42 @@
       },
       {
         "name": "chainlist-1513-2",
+        "endpoint": "https://story-evm-testnet-rpc.tech-coha05.xyz",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1513-3",
+        "endpoint": "https://story-rpc.oneiricts.com:8445",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1513-4",
+        "endpoint": "https://evm-rpc-story.josephtran.xyz",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1513-5",
         "endpoint": "https://story-rpc01.originstake.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1513-6",
+        "endpoint": "https://story-rpc-evm.mandragora.io",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1513-7",
+        "endpoint": "https://story-testnet-jsonrpc.blockhub.id",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7659,6 +7694,13 @@
       {
         "name": "chainlist-167009-5",
         "endpoint": "https://taiko-hekla.drpc.org",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-167009-7",
+        "endpoint": "https://hekla-testnet.rpc.porters.xyz/taiko-public",
         "weight": 100,
         "read_only": false,
         "disabled": false
