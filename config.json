@@ -4147,21 +4147,42 @@
       },
       {
         "name": "chainlist-1513-5",
-        "endpoint": "https://story-rpc01.originstake.com",
+        "endpoint": "https://lightnode-rpc-story.grandvalleys.com",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
         "name": "chainlist-1513-6",
-        "endpoint": "https://story-rpc-evm.mandragora.io",
+        "endpoint": "https://story-rpc01.originstake.com",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
         "name": "chainlist-1513-7",
+        "endpoint": "https://story-testnet-evm.itrocket.net",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1513-8",
+        "endpoint": "https://story-rpc-evm.mandragora.io",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1513-9",
         "endpoint": "https://story-testnet-jsonrpc.blockhub.id",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1513-10",
+        "endpoint": "https://rpc-storyevm-testnet.aldebaranode.xyz",
         "weight": 100,
         "read_only": false,
         "disabled": false
