@@ -81,6 +81,34 @@ const suiNodes = [
     read_only: false,
     disabled: false,
   },
+  {
+    name: "chainlist-sui-9",
+    endpoint: "https://1rpc.io/sui",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
+  {
+    name: "chainlist-sui-10",
+    endpoint: "https://api.blockeden.xyz/sui/8UuXzatAZYDBJC6YZTKD",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
+  {
+    name: "chainlist-sui-11",
+    endpoint: "https://sui.blockpi.network/v1/rpc/public",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
+  {
+    name: "chainlist-sui-12",
+    endpoint: "https://endpoints.omniatech.io/v1/sui/mainnet/public",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  }
 ];
 
 const nearNodes = [
