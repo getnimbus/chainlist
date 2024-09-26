@@ -165,7 +165,9 @@ const privacyStatement = {
     "We retain Personal Data about you for as long as necessary to provide you with our services. In some cases we retain Personal Data for longer, if doing so is necessary to comply with our legal obligations, resolve disputes or collect fees owed, or is otherwise permitted or required by applicable law, rule or regulation.https://www.conduit.xyz/privacy-policy",
   nal: "Sometimes we collect your information automatically when you interact with our services, and sometimes we collect your information directly from individuals. At times, we may collect information about an individual from other sources and third parties, even before our first direct interaction.https://www.nal.network/privacy.html",
   originstake:
-    "At OriginStake, your privacy is our top priority. Our RPC services strictly handle on-chain information and never collect or store personal data such as IP addresses, wallet details, location, or any other identifying information. We do not track or log user interactions beyond what’s required for on-chain transactions. Any data temporarily collected is solely for maintaining service functionality, such as load balancing or DDoS protection, and is automatically deleted after 7 days. For more details: https://originstake.com/privacy"
+    "At OriginStake, your privacy is our top priority. Our RPC services strictly handle on-chain information and never collect or store personal data such as IP addresses, wallet details, location, or any other identifying information. We do not track or log user interactions beyond what’s required for on-chain transactions. Any data temporarily collected is solely for maintaining service functionality, such as load balancing or DDoS protection, and is automatically deleted after 7 days. For more details: https://originstake.com/privacy",
+  callstatic:
+    "The Company will retain your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. https://callstatic.com/privacy-policy/"
 };
 
 export const extraRpcs = {
@@ -436,6 +438,11 @@ export const extraRpcs = {
         url: "wss://ws-rpc.graffiti.farm",
         tracking: "limited",
         trackingDetails: privacyStatement.graffiti,
+      },
+      {
+        url: "wss://ethereum.callstaticrpc.com",
+        tracking: "yes",
+        trackingDetails: privacyStatement.callstatic,
       },
     ],
   },
@@ -881,6 +888,11 @@ export const extraRpcs = {
         trackingDetails: privacyStatement["4everland"],
       },
       "https://bnb.rpc.subquery.network/public",
+      {
+        url: "wss://bsc.callstaticrpc.com",
+        tracking: "yes",
+        trackingDetails: privacyStatement.callstatic,
+      },
     ],
   },
   97: {
@@ -1086,6 +1098,11 @@ export const extraRpcs = {
         tracking: "yes",
         trackingDetails: privacyStatement.tatum,
       },
+      {
+        url: "wss://fantom.callstaticrpc.com",
+        tracking: "yes",
+        trackingDetails: privacyStatement.callstatic,
+      },
     ],
   },
   137: {
@@ -1142,6 +1159,11 @@ export const extraRpcs = {
         url: "https://polygon.blockpi.network/v1/rpc/public",
         tracking: "limited",
         trackingDetails: privacyStatement.blockpi,
+      },
+      {
+        url: "https://go.getblock.io/02667b699f05444ab2c64f9bff28f027",
+        tracking: "yes",
+        trackingDetails: privacyStatement.getblock,
       },
       {
         url: "https://polygon.api.onfinality.io/public",
@@ -1360,6 +1382,11 @@ export const extraRpcs = {
         url: "https://arbitrum.gateway.tenderly.co",
         tracking: "yes",
         trackingDetails: privacyStatement.tenderly,
+      },
+      {
+        url: "wss://arbitrum.callstaticrpc.com",
+        tracking: "yes",
+        trackingDetails: privacyStatement.callstatic,
       },
     ],
   },
@@ -1617,6 +1644,11 @@ export const extraRpcs = {
         url: "https://blast.gateway.tenderly.co",
         tracking: "yes",
         trackingDetails: privacyStatement.tenderly,
+      },
+      {
+        url: "wss://blast.callstaticrpc.com",
+        tracking: "yes",
+        trackingDetails: privacyStatement.callstatic,
       },
     ],
   },
@@ -4041,6 +4073,11 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.tatum,
       },
       "https://base.rpc.subquery.network/public",
+      {
+        url: "wss://base.callstaticrpc.com",
+        tracking: "yes",
+        trackingDetails: privacyStatement.callstatic,
+      },
     ],
   },
   11235: {
@@ -5724,6 +5761,14 @@ export const extraRpcs = {
   5115: {
     rpcs: ["https://rpc.testnet.citrea.xyz"],
   },
+
+  14800: {
+    rpcs: [
+      "https://rpc.moksha.vana.org",
+      "https://rpc-moksha-vana-josephtran.xyz",
+    ],
+  },
+  
 };
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
 
