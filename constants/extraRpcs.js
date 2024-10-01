@@ -1274,7 +1274,12 @@ export const extraRpcs = {
   },
   1075: {
     rpcs: [
-      "https://json-rpc.evm.iotaledger.net",
+      "https://evm-toolkit-api.evm.testnet.iotaledger.net",
+      {
+        url: "https://iota-testnet-evm.public.blastapi.io",
+        tracking: "limited",
+        trackingDetails: privacyStatement.blastapi,
+      }
     ],
   },
   42161: {
@@ -4913,16 +4918,6 @@ export const extraRpcs = {
       },
     ],
   },
-  167008: {
-    rpcs: [
-      "https://rpc.katla.taiko.xyz",
-      {
-        url: "https://katla.taiko.tools",
-        tracking: "none",
-        trackingDetails: privacyStatement.taikotools,
-      },
-    ],
-  },
   167009: {
     rpcs: [
       "https://rpc.hekla.taiko.xyz",
@@ -5738,7 +5733,17 @@ export const extraRpcs = {
   14800: {
     rpcs: [
       "https://rpc.moksha.vana.org",
-      "https://rpc-moksha-vana-josephtran.xyz",
+      "https://rpc-moksha-vana.josephtran.xyz",
+      "https://moksha-vana-rpc.tech-coha05.xyz",
+    ],
+  },
+  55244: {
+    rpcs: [
+      {
+        url: "https://rpc.superposition.so",
+        tracking: "yes",
+        trackingDetails: privacyStatement.conduit,
+      },
     ],
   },
   
