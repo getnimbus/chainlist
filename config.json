@@ -3589,7 +3589,14 @@
     "1075": [
       {
         "name": "chainlist-1075-0",
-        "endpoint": "https://json-rpc.evm.iotaledger.net",
+        "endpoint": "https://evm-toolkit-api.evm.testnet.iotaledger.net",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1075-1",
+        "endpoint": "https://iota-testnet-evm.public.blastapi.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6248,7 +6255,14 @@
       },
       {
         "name": "chainlist-14800-1",
-        "endpoint": "https://rpc-moksha-vana-josephtran.xyz",
+        "endpoint": "https://rpc-moksha-vana.josephtran.xyz",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-14800-2",
+        "endpoint": "https://moksha-vana-rpc.tech-coha05.xyz",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7177,6 +7191,15 @@
         "disabled": false
       }
     ],
+    "55244": [
+      {
+        "name": "chainlist-55244-0",
+        "endpoint": "https://rpc.superposition.so",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
     "55555": [
       {
         "name": "chainlist-55555-0",
@@ -7978,22 +8001,6 @@
       {
         "name": "chainlist-167000-9",
         "endpoint": "https://taiko-mainnet.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      }
-    ],
-    "167008": [
-      {
-        "name": "chainlist-167008-0",
-        "endpoint": "https://rpc.katla.taiko.xyz",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-167008-1",
-        "endpoint": "https://katla.taiko.tools",
         "weight": 100,
         "read_only": false,
         "disabled": false
