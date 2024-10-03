@@ -849,6 +849,13 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-30-4",
+        "endpoint": "https://rootstock-mainnet.public.blastapi.io",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "33": [
@@ -5622,6 +5629,15 @@
       {
         "name": "chainlist-8453-17",
         "endpoint": "https://base.rpc.subquery.network/public",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "8668": [
+      {
+        "name": "chainlist-8668-0",
+        "endpoint": "https://mainnet-rpc.helachain.com",
         "weight": 100,
         "read_only": false,
         "disabled": false
