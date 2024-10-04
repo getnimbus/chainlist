@@ -94,13 +94,6 @@ const suiNodes = [
     weight: 100,
     read_only: false,
     disabled: false,
-  },
-  {
-    name: "chainlist-sui-11",
-    endpoint: "https://endpoints.omniatech.io/v1/sui/mainnet/public",
-    weight: 100,
-    read_only: false,
-    disabled: false,
   }
 ];
 
