@@ -1885,6 +1885,11 @@ export const extraRpcs = {
         tracking: "yes",
         trackingDetails: privacyStatement.tatum,
       },
+        {
+        url: "https://go.getblock.io/e8a75f8dcf614861becfbcb185be6eb4",
+        tracking: "yes",
+        trackingDetails: privacyStatement.getblock,
+      },
       {
         url: "https://opt-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
         tracking: "limited",
@@ -5753,6 +5758,9 @@ export const extraRpcs = {
   },
   8668: {
     rpcs: ["https://mainnet-rpc.helachain.com"]
+  },
+  698: {
+    rpcs: ["https://rpc.matchscan.io"]
   },
 };
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
