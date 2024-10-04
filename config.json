@@ -605,20 +605,27 @@
       },
       {
         "name": "chainlist-10-19",
+        "endpoint": "https://go.getblock.io/e8a75f8dcf614861becfbcb185be6eb4",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-10-20",
         "endpoint": "https://opt-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-10-21",
+        "name": "chainlist-10-22",
         "endpoint": "https://endpoints.omniatech.io/v1/op/mainnet/public",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-10-22",
+        "name": "chainlist-10-23",
         "endpoint": "https://optimism.rpc.subquery.network/public",
         "weight": 100,
         "read_only": false,
@@ -3326,6 +3333,15 @@
       {
         "name": "chainlist-686-2",
         "endpoint": "https://karura.api.onfinality.io/public",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "698": [
+      {
+        "name": "chainlist-698-0",
+        "endpoint": "https://rpc.matchscan.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -9131,13 +9147,6 @@
       {
         "name": "chainlist-sui-10",
         "endpoint": "https://sui.blockpi.network/v1/rpc/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-sui-11",
-        "endpoint": "https://endpoints.omniatech.io/v1/sui/mainnet/public",
         "weight": 100,
         "read_only": false,
         "disabled": false
