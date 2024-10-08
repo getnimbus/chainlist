@@ -56,13 +56,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-1-6",
-        "endpoint": "https://rpc.builder0x69.io/",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-1-7",
         "endpoint": "https://rpc.mevblocker.io",
         "weight": 100,
@@ -1260,13 +1253,6 @@
       {
         "name": "chainlist-56-15",
         "endpoint": "https://rpc-bsc.48.club",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-56-16",
-        "endpoint": "https://koge-rpc-bsc.48.club",
         "weight": 100,
         "read_only": false,
         "disabled": false
