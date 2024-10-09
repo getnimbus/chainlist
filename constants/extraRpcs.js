@@ -167,7 +167,11 @@ const privacyStatement = {
   originstake:
     "At OriginStake, your privacy is our top priority. Our RPC services strictly handle on-chain information and never collect or store personal data such as IP addresses, wallet details, location, or any other identifying information. We do not track or log user interactions beyond what’s required for on-chain transactions. Any data temporarily collected is solely for maintaining service functionality, such as load balancing or DDoS protection, and is automatically deleted after 7 days. For more details: https://originstake.com/privacy",
   callstatic:
-    "While making RPC requests, we do not log, store, or track your IP address, country, location, or any personal data. We log usage data to help you monitor app performance, such as request volume and success rates. These logs are associated solely with the unique API key generated for each of your endpoints, are anonymized, and are not stored in logs. https://callstatic.com/privacy-policy/"
+    "While making RPC requests, we do not log, store, or track your IP address, country, location, or any personal data. We log usage data to help you monitor app performance, such as request volume and success rates. These logs are associated solely with the unique API key generated for each of your endpoints, are anonymized, and are not stored in logs. https://callstatic.com/privacy-policy/",
+  glidexp:
+    "At Glide Protocol, we strictly adhere to privacy principles by ensuring that no IP addresses, geolocation data, financial information, or any personal data are logged, stored, or tracked during RPC requests. This is made possible by the decentralized nature of blockchain technology, which facilitates secure and transparent without the need for personal information, aligning with our commitment to safeguarding user privacy. For more information, visit https://glideprotocol.xyz/privacy-policy",
+  bctech:
+    "When you use the Services, we may automatically process information about your computer and internet connection (including your IP address, operating system and browser type), your mobile carrier, device information (including device and application IDs), search terms, cookie information, as well as information about the timing, frequency and pattern of your service use, and information about to the transactions you make on our Services.For more visit https://www.versatizecoin.com/Privacy_Policy.html"
 };
 
 export const extraRpcs = {
@@ -1096,6 +1100,7 @@ export const extraRpcs = {
         tracking: "none",
         trackingDetails: privacyStatement.omnia,
       },
+      "https://fantom-json-rpc.stakely.io",
     ],
   },
   137: {
@@ -1479,21 +1484,26 @@ export const extraRpcs = {
   },
   8217: {
     rpcs: [
-      "https://public-en-cypress.klaytn.net",
+      "https://public-en.node.kaia.io",
       {
-        url: "https://klaytn-mainnet.g.allthatnode.com/full/evm",
+        url: "https://alpha-hardworking-orb.kaia-mainnet.quiknode.pro/",
         tracking: "yes",
-        trackingDetails: privacyStatement.allthatnode,
-      },
-      {
-        url: "https://rpc.ankr.com/klaytn ",
-        tracking: "limited",
-        trackingDetails: privacyStatement.ankr,
+        trackingDetails: privacyStatement.quicknode,
       },
       {
         url: "https://kaia.blockpi.network/v1/rpc/public",
         tracking: "limited",
         trackingDetails: privacyStatement.blockpi,
+      },
+      {
+        url: "https://kaia-mainnet.rpc.grove.city/v1/803ceedf",
+        tracking: "none",
+        trackingDetails: privacyStatement.pokt,
+      },
+      {
+        url: "https://go.getblock.io/d7094dbd80ab474ba7042603fe912332",
+        tracking: "none",
+        trackingDetails: privacyStatement.getblock,
       },
       {
         url: "https://klaytn.api.onfinality.io/public",
@@ -1506,11 +1516,6 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.onerpc,
       },
       {
-        url: "https://klaytn-pokt.nodies.app",
-        tracking: "none",
-        trackingDetails: privacyStatement.pokt,
-      },
-      {
         url: "https://klaytn.drpc.org",
         tracking: "none",
         trackingDetails: privacyStatement.drpc,
@@ -1519,6 +1524,11 @@ export const extraRpcs = {
         url: "https://klaytn-cypress.gateway.tatum.io",
         tracking: "yes",
         trackingDetails: privacyStatement.tatum,
+      },
+      {
+        url: "https://rpc.ankr.com/klaytn ",
+        tracking: "limited",
+        trackingDetails: privacyStatement.ankr,
       },
     ],
   },
@@ -3174,22 +3184,21 @@ export const extraRpcs = {
   },
   1001: {
     rpcs: [
-      "https://public-en-baobab.klaytn.net",
       "https://public-en.kairos.node.kaia.io",
       {
-        url: "https://klaytn-baobab.g.allthatnode.com/full/evm",
+        url: "https://responsive-green-emerald.kaia-kairos.quiknode.pro/",
         tracking: "yes",
-        trackingDetails: privacyStatement.allthatnode,
-      },
-      {
-        url: "https://rpc.ankr.com/klaytn_testnet",
-        tracking: "limited",
-        trackingDetails: privacyStatement.ankr,
+        trackingDetails: privacyStatement.quicknode,
       },
       {
         url: "https://kaia-kairos.blockpi.network/v1/rpc/public",
         tracking: "limited",
         trackingDetails: privacyStatement.blockpi,
+      },
+      {
+        url: "https://rpc.ankr.com/klaytn_testnet",
+        tracking: "limited",
+        trackingDetails: privacyStatement.ankr,
       },
       {
         url: "https://klaytn.api.onfinality.io/public",
@@ -4926,6 +4935,7 @@ export const extraRpcs = {
         tracking: "yes",
         trackingDetails: privacyStatement.tenderly,
       },
+      "https://taiko-json-rpc.stakely.io/"
     ],
   },
   167009: {
@@ -5762,6 +5772,41 @@ export const extraRpcs = {
   698: {
     rpcs: ["https://rpc.matchscan.io"]
   },
+  251: {
+    rpcs: [
+      {
+        url: "wss://rpc-api.glideprotocol.xyz/l1-rpc",
+        tracking: "none",
+        trackingDetails: privacyStatement.glidexp,
+      },
+      {
+        url: "https://rpc-api.glideprotocol.xyz/l1-rpc",
+        tracking: "none",
+        trackingDetails: privacyStatement.glidexp,
+      },
+    ],
+  },
+  253: {
+    rpcs: [
+      {
+        url: "wss://rpc-api.glideprotocol.xyz/l2-rpc",
+        tracking: "none",
+        trackingDetails: privacyStatement.glidexp,
+      },
+      {
+        url: "https://rpc-api.glideprotocol.xyz/l2-rpc",
+        tracking: "none",
+        trackingDetails: privacyStatement.glidexp,
+      },
+    ],
+  },
+  6060: {
+    rpcs: [{
+      url: "https://rpc01.bchscan.io/",
+      tracking: "yes",
+      trackingDetails: privacyStatement.bctech,
+    }]
+  }
 };
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
 
