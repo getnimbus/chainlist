@@ -2691,6 +2691,22 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-250-18",
+        "endpoint": "https://fantom-json-rpc.stakely.io",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "251": [
+      {
+        "name": "chainlist-251-1",
+        "endpoint": "https://rpc-api.glideprotocol.xyz/l1-rpc",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "252": [
@@ -2711,6 +2727,15 @@
       {
         "name": "chainlist-252-3",
         "endpoint": "https://fraxtal.gateway.tenderly.co",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "253": [
+      {
+        "name": "chainlist-253-1",
+        "endpoint": "https://rpc-api.glideprotocol.xyz/l2-rpc",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -3492,21 +3517,21 @@
     "1001": [
       {
         "name": "chainlist-1001-0",
-        "endpoint": "https://public-en-baobab.klaytn.net",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-1001-1",
         "endpoint": "https://public-en.kairos.node.kaia.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
+        "name": "chainlist-1001-1",
+        "endpoint": "https://responsive-green-emerald.kaia-kairos.quiknode.pro/",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
         "name": "chainlist-1001-2",
-        "endpoint": "https://klaytn-baobab.g.allthatnode.com/full/evm",
+        "endpoint": "https://kaia-kairos.blockpi.network/v1/rpc/public",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -3520,13 +3545,6 @@
       },
       {
         "name": "chainlist-1001-4",
-        "endpoint": "https://kaia-kairos.blockpi.network/v1/rpc/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-1001-5",
         "endpoint": "https://klaytn.api.onfinality.io/public",
         "weight": 100,
         "read_only": false,
@@ -5157,6 +5175,15 @@
         "disabled": false
       }
     ],
+    "6060": [
+      {
+        "name": "chainlist-6060-0",
+        "endpoint": "https://rpc01.bchscan.io/",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
     "6363": [
       {
         "name": "chainlist-6363-0",
@@ -5444,49 +5471,49 @@
     "8217": [
       {
         "name": "chainlist-8217-0",
-        "endpoint": "https://public-en-cypress.klaytn.net",
+        "endpoint": "https://public-en.node.kaia.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
         "name": "chainlist-8217-1",
-        "endpoint": "https://klaytn-mainnet.g.allthatnode.com/full/evm",
+        "endpoint": "https://alpha-hardworking-orb.kaia-mainnet.quiknode.pro/",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
         "name": "chainlist-8217-2",
-        "endpoint": "https://rpc.ankr.com/klaytn ",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-8217-3",
         "endpoint": "https://kaia.blockpi.network/v1/rpc/public",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
+        "name": "chainlist-8217-3",
+        "endpoint": "https://kaia-mainnet.rpc.grove.city/v1/803ceedf",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
         "name": "chainlist-8217-4",
-        "endpoint": "https://klaytn.api.onfinality.io/public",
+        "endpoint": "https://go.getblock.io/d7094dbd80ab474ba7042603fe912332",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
         "name": "chainlist-8217-5",
-        "endpoint": "https://1rpc.io/klay",
+        "endpoint": "https://klaytn.api.onfinality.io/public",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
         "name": "chainlist-8217-6",
-        "endpoint": "https://klaytn-pokt.nodies.app",
+        "endpoint": "https://1rpc.io/klay",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -5501,6 +5528,13 @@
       {
         "name": "chainlist-8217-8",
         "endpoint": "https://klaytn-cypress.gateway.tatum.io",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-8217-9",
+        "endpoint": "https://rpc.ankr.com/klaytn ",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -8019,6 +8053,13 @@
       {
         "name": "chainlist-167000-9",
         "endpoint": "https://taiko-mainnet.gateway.tenderly.co",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-167000-10",
+        "endpoint": "https://taiko-json-rpc.stakely.io/",
         "weight": 100,
         "read_only": false,
         "disabled": false
