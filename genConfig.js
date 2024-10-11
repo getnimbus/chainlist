@@ -16,7 +16,8 @@ const ignoreList = [
   "elk.finance",
   "zmok.io",
   "koge-rpc",
-  "builder0x69.io"
+  "builder0x69.io",
+  "1rpc.io"
 ];
 
 const suiNodes = [
