@@ -44,7 +44,7 @@ const suiNodes = [
   {
     name: "chainlist-sui-3",
     endpoint: "https://wallet-rpc.mainnet.sui.io",
-    weight: 400,
+    weight: 100,
     read_only: false,
     disabled: false,
   },
