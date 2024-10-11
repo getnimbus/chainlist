@@ -182,27 +182,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-1-32",
-        "endpoint": "https://mainnet.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-1-33",
-        "endpoint": "https://rpc.tenderly.co/fork/c63af728-a183-4cfb-b24e-a92801463484",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-1-34",
-        "endpoint": "https://gateway.tenderly.co/public/mainnet",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-1-35",
         "endpoint": "https://api.zan.top/node/v1/eth/mainnet/public",
         "weight": 100,
@@ -259,13 +238,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-1-45",
-        "endpoint": "https://ethereum-mainnet.gateway.tatum.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-1-46",
         "endpoint": "https://eth.nownodes.io",
         "weight": 100,
@@ -287,22 +259,8 @@
         "disabled": false
       },
       {
-        "name": "chainlist-1-50",
-        "endpoint": "https://rpc.public.curie.radiumblock.co/http/ethereum",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-1-51",
         "endpoint": "https://eth-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-1-53",
-        "endpoint": "https://rpc.public.curie.radiumblock.co/ws/ethereum",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -402,20 +360,6 @@
       {
         "name": "chainlist-5-7",
         "endpoint": "https://ethereum-goerli-rpc.publicnode.com",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-5-9",
-        "endpoint": "https://goerli.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-5-10",
-        "endpoint": "https://gateway.tenderly.co/public/goerli",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -548,20 +492,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-10-14",
-        "endpoint": "https://optimism.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-10-15",
-        "endpoint": "https://gateway.tenderly.co/public/optimism",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-10-16",
         "endpoint": "https://api.stateless.solutions/optimism/v1/demo",
         "weight": 100,
@@ -571,13 +501,6 @@
       {
         "name": "chainlist-10-17",
         "endpoint": "https://public.stackup.sh/api/v1/node/optimism-mainnet",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-10-18",
-        "endpoint": "https://optimism-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -1017,13 +940,6 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-50-11",
-        "endpoint": "https://xdc-mainnet.gateway.tatum.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "51": [
@@ -1337,13 +1253,6 @@
       {
         "name": "chainlist-56-37",
         "endpoint": "https://public.stackup.sh/api/v1/node/bsc-mainnet",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-56-38",
-        "endpoint": "https://bsc-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -1743,13 +1652,6 @@
     ],
     "97": [
       {
-        "name": "chainlist-97-0",
-        "endpoint": "https://bsctestapi.terminet.io/rpc",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-97-1",
         "endpoint": "https://bsc-testnet.public.blastapi.io",
         "weight": 100,
@@ -1875,13 +1777,6 @@
       {
         "name": "chainlist-100-11",
         "endpoint": "https://gnosis-rpc.publicnode.com",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-100-14",
-        "endpoint": "https://gno-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -2030,13 +1925,6 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-128-2",
-        "endpoint": "https://hecoapi.terminet.io/rpc",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "131": [
@@ -2157,20 +2045,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-137-15",
-        "endpoint": "https://polygon.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-137-16",
-        "endpoint": "https://gateway.tenderly.co/public/polygon",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-137-17",
         "endpoint": "https://api.zan.top/node/v1/polygon/mainnet/public",
         "weight": 100,
@@ -2187,13 +2061,6 @@
       {
         "name": "chainlist-137-19",
         "endpoint": "https://public.stackup.sh/api/v1/node/polygon-mainnet",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-137-20",
-        "endpoint": "https://polygon-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -2602,13 +2469,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-250-15",
-        "endpoint": "https://fantom-mainnet.gateway.tatum.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-250-17",
         "endpoint": "https://endpoints.omniatech.io/v1/fantom/mainnet/public",
         "weight": 100,
@@ -2646,13 +2506,6 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-252-3",
-        "endpoint": "https://fraxtal.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "253": [
@@ -2687,15 +2540,7 @@
         "disabled": false
       }
     ],
-    "256": [
-      {
-        "name": "chainlist-256-0",
-        "endpoint": "https://hecotestapi.terminet.io/rpc",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      }
-    ],
+    "256": [],
     "258": [],
     "262": [
       {
@@ -2719,20 +2564,6 @@
       {
         "name": "chainlist-288-0",
         "endpoint": "https://mainnet.boba.network/",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-288-1",
-        "endpoint": "https://boba-ethereum.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-288-2",
-        "endpoint": "https://gateway.tenderly.co/public/boba-ethereum",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -2931,20 +2762,6 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-336-5",
-        "endpoint": "https://shiden.public.curie.radiumblock.co/http",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-336-6",
-        "endpoint": "https://shiden.public.curie.radiumblock.co/ws",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "338": [
@@ -3039,20 +2856,6 @@
       {
         "name": "chainlist-420-5",
         "endpoint": "https://api.zan.top/node/v1/opt/goerli/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-420-6",
-        "endpoint": "https://optimism-goerli.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-420-7",
-        "endpoint": "https://gateway.tenderly.co/public/optimism-goerli",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -3201,20 +3004,6 @@
       {
         "name": "chainlist-592-8",
         "endpoint": "https://astar-rpc.dwellir.com",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-592-10",
-        "endpoint": "https://astar.public.curie.radiumblock.co/http",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-592-11",
-        "endpoint": "https://astar.public.curie.radiumblock.co/ws",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -3752,13 +3541,6 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-1135-3",
-        "endpoint": "https://lisk.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "1139": [
@@ -3867,20 +3649,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-1284-13",
-        "endpoint": "https://moonbeam.public.curie.radiumblock.co/http",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-1284-14",
-        "endpoint": "https://moonbeam.public.curie.radiumblock.co/ws",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-1284-15",
         "endpoint": "https://moonbeam.drpc.org",
         "weight": 100,
@@ -3927,20 +3695,6 @@
       {
         "name": "chainlist-1285-9",
         "endpoint": "https://moonriver-rpc.publicnode.com",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-1285-11",
-        "endpoint": "https://moonriver.public.curie.radiumblock.co/http",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-1285-12",
-        "endpoint": "https://moonriver.public.curie.radiumblock.co/ws",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -4355,13 +4109,6 @@
       {
         "name": "chainlist-2000-8",
         "endpoint": "https://dogechain-sj.ankr.com",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-2000-9",
-        "endpoint": "https://doge-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -5386,13 +5133,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-8217-8",
-        "endpoint": "https://klaytn-cypress.gateway.tatum.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-8217-9",
         "endpoint": "https://rpc.ankr.com/klaytn ",
         "weight": 100,
@@ -5460,20 +5200,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-8453-8",
-        "endpoint": "https://base.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-8453-9",
-        "endpoint": "https://gateway.tenderly.co/public/base",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-8453-10",
         "endpoint": "https://rpc.notadegen.com/base",
         "weight": 100,
@@ -5504,13 +5230,6 @@
       {
         "name": "chainlist-8453-15",
         "endpoint": "https://public.stackup.sh/api/v1/node/base-mainnet",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-8453-16",
-        "endpoint": "https://base-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -5970,13 +5689,6 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-10000-3",
-        "endpoint": "https://bch-mainnet.gateway.tatum.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "10086": [],
@@ -6054,13 +5766,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-11235-5",
-        "endpoint": "https://haqq-mainnet.gateway.tatum.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-11235-6",
         "endpoint": "https://haqq.drpc.org",
         "weight": 100,
@@ -6122,13 +5827,6 @@
       {
         "name": "chainlist-13371-3",
         "endpoint": "https://immutable-zkevm.drpc.org",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-13371-5",
-        "endpoint": "https://immutable.gateway.tenderly.co",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6247,13 +5945,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-17000-5",
-        "endpoint": "https://holesky.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-17000-6",
         "endpoint": "https://endpoints.omniatech.io/v1/eth/holesky/public",
         "weight": 100,
@@ -6354,20 +6045,6 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-28882-1",
-        "endpoint": "https://boba-sepolia.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-28882-2",
-        "endpoint": "https://gateway.tenderly.co/public/boba-sepolia",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "31102": [],
@@ -6449,13 +6126,6 @@
       {
         "name": "chainlist-34443-2",
         "endpoint": "https://mode.drpc.org",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-34443-4",
-        "endpoint": "https://mode.gateway.tenderly.co",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6626,13 +6296,6 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-42161-17",
-        "endpoint": "https://arbitrum.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "42170": [
@@ -6670,20 +6333,6 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-42170-6",
-        "endpoint": "https://arb-nova-mainnet.gateway.tatum.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-42170-7",
-        "endpoint": "https://arbitrum-nova.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "42220": [
@@ -6704,13 +6353,6 @@
       {
         "name": "chainlist-42220-3",
         "endpoint": "https://celo.api.onfinality.io/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-42220-4",
-        "endpoint": "https://celo-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6802,13 +6444,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-43113-4",
-        "endpoint": "https://avalanchetestapi.terminet.io/ext/bc/C/rpc",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-43113-5",
         "endpoint": "https://ava-testnet.public.blastapi.io/ext/bc/C/rpc",
         "weight": 100,
@@ -6874,13 +6509,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-43114-4",
-        "endpoint": "https://avalancheapi.terminet.io/ext/bc/C/rpc",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-43114-5",
         "endpoint": "https://avalanche-c-chain-rpc.publicnode.com",
         "weight": 100,
@@ -6939,20 +6567,6 @@
       {
         "name": "chainlist-43114-15",
         "endpoint": "https://public.stackup.sh/api/v1/node/avalanche-mainnet",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-43114-16",
-        "endpoint": "https://avax-x-mainnet.gateway.tatum.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-43114-17",
-        "endpoint": "https://avalanche-mainnet.gateway.tenderly.co",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7074,20 +6688,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-56288-2",
-        "endpoint": "https://boba-bnb.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-56288-3",
-        "endpoint": "https://gateway.tenderly.co/public/boba-bnb",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-56288-4",
         "endpoint": "https://boba-bnb.drpc.org",
         "weight": 100,
@@ -7148,13 +6748,6 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-59144-4",
-        "endpoint": "https://linea.decubate.com",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "60808": [
@@ -7168,13 +6761,6 @@
       {
         "name": "chainlist-60808-2",
         "endpoint": "https://bob.drpc.org",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-60808-4",
-        "endpoint": "https://bob.gateway.tenderly.co",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7276,13 +6862,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-80001-3",
-        "endpoint": "https://polygontestapi.terminet.io/rpc",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-80001-4",
         "endpoint": "https://polygon-testnet.public.blastapi.io",
         "weight": 100,
@@ -7306,20 +6885,6 @@
       {
         "name": "chainlist-80001-8",
         "endpoint": "https://polygon-mumbai-pokt.nodies.app",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-80001-9",
-        "endpoint": "https://polygon-mumbai.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-80001-10",
-        "endpoint": "https://gateway.tenderly.co/public/polygon-mumbai",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7378,20 +6943,6 @@
       {
         "name": "chainlist-80002-5",
         "endpoint": "https://polygon-amoy.drpc.org",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-80002-6",
-        "endpoint": "https://polygon-amoy.gateway.tatum.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-80002-7",
-        "endpoint": "https://polygon-amoy.gateway.tenderly.co",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7476,33 +7027,12 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-81457-13",
-        "endpoint": "https://blast.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "84531": [
       {
         "name": "chainlist-84531-1",
         "endpoint": "https://base-goerli.public.blastapi.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-84531-3",
-        "endpoint": "https://base-goerli.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-84531-4",
-        "endpoint": "https://gateway.tenderly.co/public/base-goerli",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7540,13 +7070,6 @@
       {
         "name": "chainlist-84532-2",
         "endpoint": "https://public.stackup.sh/api/v1/node/base-sepolia",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-84532-3",
-        "endpoint": "https://base-sepolia.gateway.tenderly.co",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7742,13 +7265,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-111188-1",
-        "endpoint": "https://tangible-real.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-111188-3",
         "endpoint": "https://real.drpc.org",
         "weight": 100,
@@ -7834,13 +7350,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-167000-9",
-        "endpoint": "https://taiko-mainnet.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-167000-10",
         "endpoint": "https://taiko-json-rpc.stakely.io/",
         "weight": 100,
@@ -7894,13 +7403,6 @@
       {
         "name": "chainlist-167009-8",
         "endpoint": "https://hekla-testnet.rpc.porters.xyz/taiko-public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-167009-9",
-        "endpoint": "https://taiko-hekla.gateway.tenderly.co",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -8075,13 +7577,6 @@
       {
         "name": "chainlist-421614-2",
         "endpoint": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-421614-3",
-        "endpoint": "https://arbitrum-sepolia.gateway.tenderly.co",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -8367,20 +7862,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-11155111-4",
-        "endpoint": "https://sepolia.gateway.tenderly.co",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-11155111-5",
-        "endpoint": "https://gateway.tenderly.co/public/sepolia",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-11155111-6",
         "endpoint": "https://sphinx.shardeum.org/",
         "weight": 100,
@@ -8476,13 +7957,6 @@
       {
         "name": "chainlist-11155420-3",
         "endpoint": "https://endpoints.omniatech.io/v1/op/sepolia/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-11155420-4",
-        "endpoint": "https://optimism-sepolia.gateway.tenderly.co",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -8710,13 +8184,6 @@
       {
         "name": "chainlist-1313161554-2",
         "endpoint": "https://aurora.drpc.org",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-1313161554-3",
-        "endpoint": "https://aurora-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -9077,13 +8544,6 @@
       {
         "name": "chainlist-11297108109-1",
         "endpoint": "https://palm-mainnet.public.blastapi.io",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-11297108109-2",
-        "endpoint": "https://palm-mainnet.gateway.tatum.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
