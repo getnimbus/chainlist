@@ -17,7 +17,12 @@ const ignoreList = [
   "zmok.io",
   "koge-rpc",
   "builder0x69.io",
-  "1rpc.io"
+  "1rpc.io",
+  "terminet.io",
+  "radiumblock.co",
+  "tatum.io",
+  "decubate.com",
+  "tenderly.co"
 ];
 
 const suiNodes = [
