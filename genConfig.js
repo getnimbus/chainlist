@@ -22,7 +22,8 @@ const ignoreList = [
   "radiumblock.co",
   "tatum.io",
   "decubate.com",
-  "tenderly.co"
+  "tenderly.co",
+  "mainnet.optimism.io"
 ];
 
 const suiNodes = [
