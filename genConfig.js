@@ -86,13 +86,6 @@ const suiNodes = [
   },
   {
     name: "chainlist-sui-8",
-    endpoint: "https://api.blockeden.xyz/sui/8UuXzatAZYDBJC6YZTKD",
-    weight: 100,
-    read_only: false,
-    disabled: false,
-  },
-  {
-    name: "chainlist-sui-9",
     endpoint: "https://sui.blockpi.network/v1/rpc/public",
     weight: 100,
     read_only: false,
