@@ -183,7 +183,7 @@
       },
       {
         "name": "chainlist-1-35",
-        "endpoint": "https://api.zan.top/node/v1/eth/mainnet/public",
+        "endpoint": "https://api.zan.top/eth-mainnet",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -366,20 +366,13 @@
       },
       {
         "name": "chainlist-5-11",
-        "endpoint": "https://api.zan.top/node/v1/eth/goerli/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-5-12",
         "endpoint": "https://builder-rpc1.0xblockswap.com",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-5-13",
+        "name": "chainlist-5-12",
         "endpoint": "https://builder-rpc2.0xblockswap.com",
         "weight": 100,
         "read_only": false,
@@ -472,7 +465,7 @@
       },
       {
         "name": "chainlist-10-12",
-        "endpoint": "https://api.zan.top/node/v1/opt/mainnet/public",
+        "endpoint": "https://api.zan.top/opt-mainnet",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -521,6 +514,13 @@
       },
       {
         "name": "chainlist-10-23",
+        "endpoint": "https://rpc.buildbear.io/esquivelfabian/",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-10-24",
         "endpoint": "https://optimism.rpc.subquery.network/public",
         "weight": 100,
         "read_only": false,
@@ -1224,7 +1224,7 @@
       },
       {
         "name": "chainlist-56-33",
-        "endpoint": "https://api.zan.top/node/v1/bsc/mainnet/public",
+        "endpoint": "https://api.zan.top/bsc-mainnet",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -1660,7 +1660,7 @@
       },
       {
         "name": "chainlist-97-4",
-        "endpoint": "https://api.zan.top/node/v1/bsc/testnet/public",
+        "endpoint": "https://api.zan.top/bsc-testnet",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -1918,6 +1918,13 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-128-3",
+        "endpoint": "https://heco.drpc.org",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "131": [
@@ -2039,7 +2046,7 @@
       },
       {
         "name": "chainlist-137-17",
-        "endpoint": "https://api.zan.top/node/v1/polygon/mainnet/public",
+        "endpoint": "https://api.zan.top/polygon-mainnet",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -2235,6 +2242,13 @@
       {
         "name": "chainlist-196-2",
         "endpoint": "https://endpoints.omniatech.io/v1/xlayer/mainnet/public",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-196-3",
+        "endpoint": "https://xlayer.drpc.org",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -2471,6 +2485,13 @@
       {
         "name": "chainlist-250-18",
         "endpoint": "https://fantom-json-rpc.stakely.io",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-250-19",
+        "endpoint": "https://api.zan.top/ftm-mainnet",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -2724,6 +2745,13 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-324-7",
+        "endpoint": "https://api.zan.top/zksync-mainnet",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "333": [],
@@ -2847,14 +2875,7 @@
         "disabled": false
       },
       {
-        "name": "chainlist-420-5",
-        "endpoint": "https://api.zan.top/node/v1/opt/goerli/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-420-8",
+        "name": "chainlist-420-7",
         "endpoint": "https://endpoints.omniatech.io/v1/op/goerli/public",
         "weight": 100,
         "read_only": false,
@@ -3406,20 +3427,13 @@
       },
       {
         "name": "chainlist-1101-5",
-        "endpoint": "https://api.zan.top/node/v1/polygonzkevm/mainnet/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-1101-6",
         "endpoint": "https://polygon-zkevm.drpc.org",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-1101-7",
+        "name": "chainlist-1101-6",
         "endpoint": "https://endpoints.omniatech.io/v1/polygon-zkevm/mainnet/public",
         "weight": 100,
         "read_only": false,
@@ -3476,6 +3490,13 @@
       {
         "name": "chainlist-1116-5",
         "endpoint": "https://core.drpc.org",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1116-7",
+        "endpoint": "https://api.zan.top/core-mainnet",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -3779,15 +3800,7 @@
         "disabled": false
       }
     ],
-    "1442": [
-      {
-        "name": "chainlist-1442-0",
-        "endpoint": "https://api.zan.top/node/v1/polygonzkevm/testnet/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      }
-    ],
+    "1442": [],
     "1501": [
       {
         "name": "chainlist-1501-0",
@@ -4653,6 +4666,13 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-5000-8",
+        "endpoint": "https://api.zan.top/mantle-mainnet",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "5050": [
@@ -5126,7 +5146,7 @@
         "disabled": false
       },
       {
-        "name": "chainlist-8217-9",
+        "name": "chainlist-8217-8",
         "endpoint": "https://rpc.ankr.com/klaytn ",
         "weight": 100,
         "read_only": false,
@@ -5230,6 +5250,13 @@
       {
         "name": "chainlist-8453-17",
         "endpoint": "https://base.rpc.subquery.network/public",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-8453-19",
+        "endpoint": "https://api.zan.top/base-mainnet",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -5943,6 +5970,13 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-17000-7",
+        "endpoint": "https://api.zan.top/eth-holesky",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "17071": [
@@ -6026,6 +6060,15 @@
       {
         "name": "chainlist-24734-0",
         "endpoint": "https://node1.mintme.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "25327": [
+      {
+        "name": "chainlist-25327-0",
+        "endpoint": "https://everclear.drpc.org",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6257,7 +6300,7 @@
       },
       {
         "name": "chainlist-42161-12",
-        "endpoint": "https://api.zan.top/node/v1/arb/one/public",
+        "endpoint": "https://api.zan.top/arb-one",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6459,7 +6502,7 @@
       },
       {
         "name": "chainlist-43113-9",
-        "endpoint": "https://api.zan.top/node/v1/avax/fuji/public/ext/bc/C/rpc",
+        "endpoint": "https://api.zan.top/avax-fuji/ext/bc/C/rpc",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6545,7 +6588,7 @@
       },
       {
         "name": "chainlist-43114-13",
-        "endpoint": "https://api.zan.top/node/v1/avax/mainnet/public/ext/bc/C/rpc",
+        "endpoint": "https://api.zan.top/avax-mainnet/ext/bc/C/rpc",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6884,20 +6927,13 @@
       },
       {
         "name": "chainlist-80001-11",
-        "endpoint": "https://api.zan.top/node/v1/polygon/mumbai/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-80001-12",
         "endpoint": "https://polygon-mumbai.api.onfinality.io/public",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-80001-13",
+        "name": "chainlist-80001-12",
         "endpoint": "https://public.stackup.sh/api/v1/node/polygon-mumbai",
         "weight": 100,
         "read_only": false,
@@ -6936,6 +6972,13 @@
       {
         "name": "chainlist-80002-5",
         "endpoint": "https://polygon-amoy.drpc.org",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-80002-8",
+        "endpoint": "https://api.zan.top/polygon-amoy",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7476,6 +7519,29 @@
         "disabled": false
       }
     ],
+    "383353": [
+      {
+        "name": "chainlist-383353-0",
+        "endpoint": "https://rpc.cheesechain.xyz",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-383353-1",
+        "endpoint": "https://rpc.cheesechain.xyz/http",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-383353-2",
+        "endpoint": "https://cheesechain.calderachain.xyz/http",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
     "420420": [
       {
         "name": "chainlist-420420-0",
@@ -7539,13 +7605,6 @@
       },
       {
         "name": "chainlist-421613-5",
-        "endpoint": "https://api.zan.top/node/v1/arb/goerli/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-421613-6",
         "endpoint": "https://endpoints.omniatech.io/v1/arbitrum/goerli/public",
         "weight": 100,
         "read_only": false,
@@ -7570,6 +7629,13 @@
       {
         "name": "chainlist-421614-2",
         "endpoint": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-421614-4",
+        "endpoint": "https://api.zan.top/arb-sepolia",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7870,7 +7936,7 @@
       },
       {
         "name": "chainlist-11155111-8",
-        "endpoint": "https://api.zan.top/node/v1/eth/sepolia/public",
+        "endpoint": "https://api.zan.top/eth-sepolia",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7950,6 +8016,13 @@
       {
         "name": "chainlist-11155420-3",
         "endpoint": "https://endpoints.omniatech.io/v1/op/sepolia/public",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-11155420-5",
+        "endpoint": "https://api.zan.top/opt-sepolia",
         "weight": 100,
         "read_only": false,
         "disabled": false
