@@ -8316,28 +8316,21 @@
         "disabled": false
       },
       {
-        "name": "chainlist-1666600000-4",
-        "endpoint": "https://harmony.api.onfinality.io/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-1666600000-6",
+        "name": "chainlist-1666600000-5",
         "endpoint": "https://hmyone-pokt.nodies.app",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-1666600000-7",
+        "name": "chainlist-1666600000-6",
         "endpoint": "https://endpoints.omniatech.io/v1/harmony/mainnet-0/public",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-1666600000-8",
+        "name": "chainlist-1666600000-7",
         "endpoint": "https://harmony-0.drpc.org",
         "weight": 100,
         "read_only": false,
