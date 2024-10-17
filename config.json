@@ -8601,8 +8601,15 @@
     ],
     "solana_das_2": [
       {
-        "name": "chainlist-solana-das-2-1",
+        "name": "chainlist-solana-das-v2-1",
         "endpoint": "https://rpc.ironforge.network/mainnet?apiKey=01HXRWYMVQN7ZA8M70JBXRG03R",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-solana-das-v2-2",
+        "endpoint": "https://information.coin98.com/api/solanaV4",
         "weight": 100,
         "read_only": false,
         "disabled": false
