@@ -90,6 +90,13 @@ const suiNodes = [
     weight: 100,
     read_only: false,
     disabled: false,
+  },
+  {
+    name: "chainlist-sui-9",
+    endpoint: "https://fullnode.sui.mainnet.aftermath.finance/",
+    weight: 100,
+    read_only: false,
+    disabled: false,
   }
 ];
 
