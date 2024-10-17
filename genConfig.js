@@ -273,6 +273,13 @@ const solanaDasV2Nodes = [
     read_only: false,
     disabled: false,
   },
+  {
+    name: "chainlist-solana-das-v2-3",
+    endpoint: "https://cold-hanni-fast-mainnet.helius-rpc.com/",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
 ];
 
 const nodes = Object.keys(extraRpcs).reduce(
