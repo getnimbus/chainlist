@@ -287,6 +287,13 @@ const solanaDasV2Nodes = [
     read_only: false,
     disabled: false,
   },
+  {
+    name: "chainlist-solana-das-v2-5",
+    endpoint: "https://global-rpc.dexlab.space/v1/rpc",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
 ];
 
 const nodes = Object.keys(extraRpcs).reduce(
