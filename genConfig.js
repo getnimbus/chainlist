@@ -245,9 +245,16 @@ const solanaDasNodes = [
 ];
 
 const solanaDas2Nodes = [
+  // {
+  //   name: "chainlist-solana-das-2-0",
+  //   endpoint: "https://solana.a.exodus.io/",
+  //   weight: 100,
+  //   read_only: false,
+  //   disabled: false,
+  // },
   {
-    name: "chainlist-solana-das-2-0",
-    endpoint: "https://solana.a.exodus.io/",
+    name: "chainlist-solana-das-2-1",
+    endpoint: "https://rpc.ironforge.network/mainnet?apiKey=01HXRWYMVQN7ZA8M70JBXRG03R",
     weight: 100,
     read_only: false,
     disabled: false,
