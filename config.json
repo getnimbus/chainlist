@@ -264,6 +264,13 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-1-56",
+        "endpoint": "https://eth.blockrazor.xyz",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "2": [
@@ -1267,6 +1274,13 @@
       {
         "name": "chainlist-56-42",
         "endpoint": "https://bnb.rpc.subquery.network/public",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-56-44",
+        "endpoint": "https://bsc.blockrazor.xyz",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -8580,6 +8594,15 @@
       {
         "name": "chainlist-solana-das-7",
         "endpoint": "https://mainnet.helius-rpc.com/?api-key=ce215dc6-42e3-494e-b92d-ca2f1ce957f4",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "solana_das_2": [
+      {
+        "name": "chainlist-solana-das-2-0",
+        "endpoint": "https://solana.a.exodus.io/",
         "weight": 100,
         "read_only": false,
         "disabled": false
