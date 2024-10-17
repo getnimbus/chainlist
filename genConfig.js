@@ -244,7 +244,7 @@ const solanaDasNodes = [
   },
 ];
 
-const solanaDas2Nodes = [
+const solanaDasV2Nodes = [
   // {
   //   name: "chainlist-solana-das-v2-0",
   //   endpoint: "https://solana.a.exodus.io/",
@@ -292,7 +292,7 @@ const nodes = Object.keys(extraRpcs).reduce(
     near: nearNodes,
     solana: solanaNodes,
     "solana_das": solanaDasNodes,
-    "solana_das_2": solanaDas2Nodes,
+    "solana_das_2": solanaDasV2Nodes,
   }
 );
 
