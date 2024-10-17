@@ -242,6 +242,13 @@ const solanaDasNodes = [
     read_only: false,
     disabled: false,
   },
+  {
+    name: "chainlist-solana-das-8",
+    endpoint: "https://mainnet.helius-rpc.com/?api-key=fa0ec5f3-578b-45c0-bc31-3b027cc19537",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
 ];
 
 const solanaDasV2Nodes = [
