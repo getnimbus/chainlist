@@ -133,6 +133,13 @@ const suiNodes = [
     read_only: false,
     disabled: false,
   },
+  {
+    name: "chainlist-sui-15",
+    endpoint: "https://sui-mainnet-rpc.nodereal.io/",
+    weight: 100,
+    read_only: false,
+    disabled: false,
+  },
 ];
 
 const nearNodes = [
