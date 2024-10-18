@@ -245,6 +245,13 @@
         "disabled": false
       },
       {
+        "name": "chainlist-1-47",
+        "endpoint": "https://rpc.nodifi.ai/api/rpc/free",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
         "name": "chainlist-1-48",
         "endpoint": "https://ethereum.rpc.subquery.network/public",
         "weight": 100,
