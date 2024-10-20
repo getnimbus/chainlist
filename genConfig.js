@@ -24,7 +24,8 @@ const ignoreList = [
   "decubate.com",
   "tenderly.co",
   "mainnet.optimism.io",
-  "allnodes.com"
+  "allnodes.com",
+  "public.stackup.sh"
 ];
 
 const suiNodes = [
