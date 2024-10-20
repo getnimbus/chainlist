@@ -231,13 +231,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-1-44",
-        "endpoint": "https://public.stackup.sh/api/v1/node/ethereum-mainnet",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-1-46",
         "endpoint": "https://eth.nownodes.io",
         "weight": 100,
@@ -494,13 +487,6 @@
       {
         "name": "chainlist-10-16",
         "endpoint": "https://api.stateless.solutions/optimism/v1/demo",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-10-17",
-        "endpoint": "https://public.stackup.sh/api/v1/node/optimism-mainnet",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -1258,13 +1244,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-56-37",
-        "endpoint": "https://public.stackup.sh/api/v1/node/bsc-mainnet",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-56-39",
         "endpoint": "https://bsc.nownodes.io",
         "weight": 100,
@@ -1694,13 +1673,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-97-6",
-        "endpoint": "https://public.stackup.sh/api/v1/node/bsc-testnet",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-97-7",
         "endpoint": "https://bsc-testnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
         "weight": 100,
@@ -2075,13 +2047,6 @@
       {
         "name": "chainlist-137-18",
         "endpoint": "https://polygon.meowrpc.com",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-137-19",
-        "endpoint": "https://public.stackup.sh/api/v1/node/polygon-mainnet",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -5262,13 +5227,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-8453-15",
-        "endpoint": "https://public.stackup.sh/api/v1/node/base-mainnet",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-8453-17",
         "endpoint": "https://base.rpc.subquery.network/public",
         "weight": 100,
@@ -6334,13 +6292,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-42161-14",
-        "endpoint": "https://public.stackup.sh/api/v1/node/arbitrum-one",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-42161-15",
         "endpoint": "https://api.stateless.solutions/arbitrum-one/v1/demo",
         "weight": 100,
@@ -6527,13 +6478,6 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-43113-10",
-        "endpoint": "https://public.stackup.sh/api/v1/node/avalanche-fuji",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "43114": [
@@ -6617,13 +6561,6 @@
       {
         "name": "chainlist-43114-14",
         "endpoint": "https://avalanche.drpc.org",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-43114-15",
-        "endpoint": "https://public.stackup.sh/api/v1/node/avalanche-mainnet",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -6952,13 +6889,6 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
-      },
-      {
-        "name": "chainlist-80001-12",
-        "endpoint": "https://public.stackup.sh/api/v1/node/polygon-mumbai",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
       }
     ],
     "80002": [
@@ -7120,13 +7050,6 @@
       {
         "name": "chainlist-84532-1",
         "endpoint": "https://base-sepolia.blockpi.network/v1/rpc/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-84532-2",
-        "endpoint": "https://public.stackup.sh/api/v1/node/base-sepolia",
         "weight": 100,
         "read_only": false,
         "disabled": false
@@ -7641,13 +7564,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-421614-1",
-        "endpoint": "https://public.stackup.sh/api/v1/node/arbitrum-sepolia",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-421614-2",
         "endpoint": "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public",
         "weight": 100,
@@ -7984,13 +7900,6 @@
         "disabled": false
       },
       {
-        "name": "chainlist-11155111-14",
-        "endpoint": "https://public.stackup.sh/api/v1/node/ethereum-sepolia",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
         "name": "chainlist-11155111-15",
         "endpoint": "https://eth-testnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
         "weight": 100,
@@ -8023,13 +7932,6 @@
       {
         "name": "chainlist-11155420-1",
         "endpoint": "https://optimism-sepolia.blockpi.network/v1/rpc/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-11155420-2",
-        "endpoint": "https://public.stackup.sh/api/v1/node/optimism-sepolia",
         "weight": 100,
         "read_only": false,
         "disabled": false
