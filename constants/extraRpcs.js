@@ -775,7 +775,12 @@ export const extraRpcs = {
         trackingDetails: privacyStatement["48Club"],
       },
       {
-        url: "https://koge-rpc-bsc.48.club",
+        url: "https://0.48.club",
+        tracking: "limited",
+        trackingDetails: privacyStatement["48Club"],
+      },
+      {
+        url: "wss://rpc-bsc.48.club/ws/",
         tracking: "limited",
         trackingDetails: privacyStatement["48Club"],
       },
@@ -4575,11 +4580,6 @@ export const extraRpcs = {
     rpcs: [
       "https://rpc.zkfair.io",
       {
-        url: "https://zkfair.blockpi.network/v1/rpc/public",
-        tracking: "limited",
-        trackingDetails: privacyStatement.blockpi,
-      },
-      {
         url: "https://endpoints.omniatech.io/v1/zkfair/mainnet/public",
         tracking: "none",
         trackingDetails: privacyStatement.omnia,
@@ -5870,6 +5870,16 @@ export const extraRpcs = {
       "https://rpc.cheesechain.xyz/http",
       "https://cheesechain.calderachain.xyz/http",
       "wss://cheesechain.calderachain.xyz/ws",
+    ],
+  },
+  1319: {
+    rpcs: [
+      "https://aia-dataseed2.aiachain.org",
+      "https://aia-dataseed3.aiachain.org",	
+      "https://aia-dataseed1.aiachain.org",
+      "https://aia-dataseed4.aiachain.org",
+      "https://aiachain.bycrpc.com",
+      "https://aiachain.znodes.net",
     ],
   }
 };
