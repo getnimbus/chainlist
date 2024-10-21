@@ -1,7 +1,7 @@
 {
   "proxy": "",
-  "max_retries": 3,
-  "request_timeout": 90,
+  "max_retries": 5,
+  "request_timeout": 120,
   "phishing_db": [
     "https://cfg.rpchub.io/agg/scam-addresses.json"
   ],
@@ -1139,133 +1139,140 @@
         "disabled": false
       },
       {
-        "name": "chainlist-56-17",
-        "endpoint": "https://bsc-pokt.nodies.app",
+        "name": "chainlist-56-16",
+        "endpoint": "https://0.48.club",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
         "name": "chainlist-56-18",
-        "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+        "endpoint": "https://bsc-pokt.nodies.app",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
         "name": "chainlist-56-19",
-        "endpoint": "https://go.getblock.io/cc778cdbdf5c4b028ec9456e0e6c0cf3",
+        "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
         "name": "chainlist-56-20",
+        "endpoint": "https://go.getblock.io/cc778cdbdf5c4b028ec9456e0e6c0cf3",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-56-21",
         "endpoint": "https://bscrpc.com",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-22",
+        "name": "chainlist-56-23",
         "endpoint": "https://binance.nodereal.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-23",
+        "name": "chainlist-56-24",
         "endpoint": "https://bsc-mainnet.rpcfast.com?api_key=xbhWBI1Wkguk8SNMu1bvvLurPGLXmgwYeC4S6g2H7WdwFigZSmPWVZRxrskEQwIf",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-26",
+        "name": "chainlist-56-27",
         "endpoint": "https://bsc.rpc.blxrbdn.com/",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-27",
+        "name": "chainlist-56-28",
         "endpoint": "https://bsc.blockpi.network/v1/rpc/public",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-28",
+        "name": "chainlist-56-29",
         "endpoint": "https://bnb.api.onfinality.io/public",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-29",
+        "name": "chainlist-56-30",
         "endpoint": "https://bsc-rpc.publicnode.com",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-31",
+        "name": "chainlist-56-32",
         "endpoint": "https://bsc-mainnet.public.blastapi.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-32",
+        "name": "chainlist-56-33",
         "endpoint": "https://bsc.meowrpc.com",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-33",
+        "name": "chainlist-56-34",
         "endpoint": "https://api.zan.top/bsc-mainnet",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-34",
+        "name": "chainlist-56-35",
         "endpoint": "https://bsc.drpc.org",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-35",
+        "name": "chainlist-56-36",
         "endpoint": "https://services.tokenview.io/vipapi/nodeservice/bsc?apikey=qVHq2o6jpaakcw3lRstl",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-39",
+        "name": "chainlist-56-40",
         "endpoint": "https://bsc.nownodes.io",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-40",
+        "name": "chainlist-56-41",
         "endpoint": "https://bsc-mainnet.4everland.org/v1/37fa9972c1b1cd5fab542c7bdd4cde2f",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-42",
+        "name": "chainlist-56-43",
         "endpoint": "https://bnb.rpc.subquery.network/public",
         "weight": 100,
         "read_only": false,
         "disabled": false
       },
       {
-        "name": "chainlist-56-44",
+        "name": "chainlist-56-45",
         "endpoint": "https://bsc.blockrazor.xyz",
         "weight": 100,
         "read_only": false,
@@ -3745,6 +3752,50 @@
       }
     ],
     "1288": [],
+    "1319": [
+      {
+        "name": "chainlist-1319-0",
+        "endpoint": "https://aia-dataseed2.aiachain.org",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1319-1",
+        "endpoint": "https://aia-dataseed3.aiachain.org",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1319-2",
+        "endpoint": "https://aia-dataseed1.aiachain.org",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1319-3",
+        "endpoint": "https://aia-dataseed4.aiachain.org",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1319-4",
+        "endpoint": "https://aiachain.bycrpc.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      },
+      {
+        "name": "chainlist-1319-5",
+        "endpoint": "https://aiachain.znodes.net",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
     "1338": [
       {
         "name": "chainlist-1338-0",
@@ -6392,13 +6443,6 @@
       },
       {
         "name": "chainlist-42766-1",
-        "endpoint": "https://zkfair.blockpi.network/v1/rpc/public",
-        "weight": 100,
-        "read_only": false,
-        "disabled": false
-      },
-      {
-        "name": "chainlist-42766-2",
         "endpoint": "https://endpoints.omniatech.io/v1/zkfair/mainnet/public",
         "weight": 100,
         "read_only": false,
