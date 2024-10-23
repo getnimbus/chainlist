@@ -5755,7 +5755,8 @@ export const extraRpcs = {
       },
       "https://story-rpc-evm.mandragora.io",
       "https://story-testnet-jsonrpc.blockhub.id",
-      "https://rpc-storyevm-testnet.aldebaranode.xyz"
+      "https://rpc-storyevm-testnet.aldebaranode.xyz",
+      "https://story-testnet.nodeinfra.com"
     ]
   },
   16600: {
@@ -5871,6 +5872,11 @@ export const extraRpcs = {
       "https://cheesechain.calderachain.xyz/http",
       "wss://cheesechain.calderachain.xyz/ws",
     ],
+  },
+  383414847825: {
+    rpcs: [
+      "https://api.zeniq.network"
+    ]
   },
   1319: {
     rpcs: [
