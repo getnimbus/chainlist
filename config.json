@@ -3940,6 +3940,13 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-1513-11",
+        "endpoint": "https://story-testnet.nodeinfra.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "1515": [
@@ -8684,6 +8691,15 @@
       {
         "name": "chainlist-6022140761023-0",
         "endpoint": "https://molereum.jdubedition.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "383414847825": [
+      {
+        "name": "chainlist-383414847825-0",
+        "endpoint": "https://api.zeniq.network",
         "weight": 100,
         "read_only": false,
         "disabled": false
