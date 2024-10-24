@@ -3947,6 +3947,13 @@
         "weight": 100,
         "read_only": false,
         "disabled": false
+      },
+      {
+        "name": "chainlist-1513-12",
+        "endpoint": "https://rpc-storyevm-testnet.aldebaranode.xyz",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
       }
     ],
     "1515": [
@@ -5774,7 +5781,7 @@
         "disabled": false
       },
       {
-        "name": "chainlist-10200-5",
+        "name": "chainlist-10200-4",
         "endpoint": " https://endpoints.omniatech.io/v1/gnosis/chiado/public",
         "weight": 100,
         "read_only": false,
@@ -6087,6 +6094,24 @@
       {
         "name": "chainlist-23294-0",
         "endpoint": "https://sapphire.oasis.io",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "23451": [
+      {
+        "name": "chainlist-23451-0",
+        "endpoint": "https://rpc.dreyerx.com",
+        "weight": 100,
+        "read_only": false,
+        "disabled": false
+      }
+    ],
+    "23452": [
+      {
+        "name": "chainlist-23452-0",
+        "endpoint": "https://testnet-rpc.dreyerx.com",
         "weight": 100,
         "read_only": false,
         "disabled": false
